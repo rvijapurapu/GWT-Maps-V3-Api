@@ -38,4 +38,9 @@ test.onlyIf {
     project.hasProperty("testmaps")
 }
 
+clean {
+    delete "target"
+    delete "war"
+}
+
 description = 'GWT Maps API V3 - Core API'

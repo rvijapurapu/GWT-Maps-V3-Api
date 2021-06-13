@@ -5,9 +5,7 @@
 rootProject.name = 'gwt-maps'
 include 'ajaxloader'
 include 'gwt-maps-api'
-include 'gwt-maps-utility-markerclustererplus'
-include 'gwt-maps-utility'
+include 'markerclustererplus'
+//include 'gwt-maps-utility'
 include 'gwt-maps-showcase'
-/*project("gwt-maps-utility-markerclustererplus").projectDir = file('gwt-maps-utility/markerclustererplus')*/
-include 'ajaxloader'
 

@@ -8,6 +8,10 @@ repositories {
     mavenCentral()
 }
 
+clean {
+    delete "target"
+}
+
 dependencies {
     implementation 'com.google.gwt:gwt-user:2.9.0'
     implementation 'com.google.gwt:gwt-dev:2.9.0'
