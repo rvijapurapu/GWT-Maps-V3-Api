@@ -17,3 +17,8 @@ src_maps**
 .gradle/**
 
 war**
+/markerclustererplus/war/
+/markerclustererplus/build/
+/gradle/
+/gradlew
+/gradlew.bat
