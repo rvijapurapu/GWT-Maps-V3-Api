@@ -13,3 +13,7 @@ lib**
 src_maps**
 **/bin**
 **/.gwt**
+**/target**
+.gradle/**
+
+war**
