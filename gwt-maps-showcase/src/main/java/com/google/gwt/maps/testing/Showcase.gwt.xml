@@ -17,7 +17,6 @@
   limitations under the License.
   #L%
   -->
-<!DOCTYPE module PUBLIC "//gwt-module/" "http://google-web-toolkit.googlecode.com/svn/tags/1.6.2/distro-source/core/src/gwt-module.dtd">
 <module rename-to='showcase'>
 
 	<!-- Inherit the core Web Toolkit stuff. -->

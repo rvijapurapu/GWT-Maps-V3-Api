@@ -20,12 +20,12 @@ package com.google.gwt.maps.client;
  * #L%
  */
 
+import com.google.gwt.ajaxloader.client.AjaxLoader;
+import com.google.gwt.ajaxloader.client.AjaxLoader.AjaxLoaderOptions;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
-
-import com.google.gwt.ajaxloader.client.AjaxLoader;
-import com.google.gwt.ajaxloader.client.AjaxLoader.AjaxLoaderOptions;
 
 /**
  * Load Maps javascript v3 api
@@ -37,7 +37,7 @@ public class LoadApi {
   /**
    * Note: If you use 3, it will take the newest stable available. Don't want that. We didn't test with that yet!
    */
-  public final static String API_VERSION = "3.10";
+  public final static String API_VERSION = "3.45";
 
   /**
    * Libraries not loaded by default <br>
